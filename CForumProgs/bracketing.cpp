@@ -14,10 +14,10 @@ int bracketingSearch()
 		cin >> yesorno;
 		if (yesorno == 2)
 		{
-			guess += guess / 2;
+			guess =guess+ guess / 2;
 		}
-		else if (guess == 0) {
-			guess -= guess / 2;
+		else  {
+			guess = guess - guess / 2;
 
 
 		}
@@ -29,6 +29,7 @@ int bracketingSearch()
 }
 
 
-int main() {
+int main2() {
 	cout<<bracketingSearch();
+	return 0;
 }
